@@ -9,7 +9,7 @@ import { FaApple } from "react-icons/fa";
 const Login = () => {
     return (
         <div className='login-container'>
-            <div className="content">
+            <div className="login-content">
                 <h1>Login</h1>
                 <form method='POST' className="login-form">
                     <div className="name-or-number">
