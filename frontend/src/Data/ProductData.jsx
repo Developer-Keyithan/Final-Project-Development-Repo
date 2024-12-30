@@ -162,6 +162,12 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "320",
       oldPrice: "450"
+    },{
+      image: CartImage,
+      name: "Potato",
+      deliveryType: "Free Delivery",
+      newPrice: "600",
+      oldPrice: "700"
     }
   ];
 

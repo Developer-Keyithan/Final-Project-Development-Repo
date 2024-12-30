@@ -1,18 +1,19 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
-import Footer from './Components/Footer/Footer';
-import Sidebar from './Components/Sidebar/Sidebar'
+
 import LandingPage from './Pages/JSX/LandingPage';
+import ProductPage from './Pages/JSX/ProductPage';
+import LoginSignUpPage from './Pages/JSX/LoginSignUpPage'
 
 function App() {
   return (
     <BrowserRouter>
-      <Sidebar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        {/* <Route path="/about" element={<About />} /> */}
+        <Route path="/Products" element={<ProductPage />} />
+        <Route path="/Login" element={<LoginSignUpPage />} />
+        <Route path="/SignUp" element={<LoginSignUpPage />} />
       </Routes>
-      {/* <Footer /> */}
     </BrowserRouter>
   );
 }
