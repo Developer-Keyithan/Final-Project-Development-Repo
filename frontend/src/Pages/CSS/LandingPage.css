@@ -13,7 +13,45 @@
     --secondary-button-color: #FF8000;
     --primary-button-hover-color: #006B12;
     --secondary-vutton-hover-color: #834100;
-    --cart-bg: #d9d9d9;
+    --cart-bg: #EFEFEF;
+}
+
+.Products-container {
+    position: absolute;
+    top: 55vh;
+    z-index: 500;
+}
+
+.About-container {
+    margin-top: 260vh;
+}
+
+.show-more  {
+    margin-left: 12vw;
+}
+
+.show-more button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+    background: var(--primary-color);
+    padding: 0 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: var(--bg-color);
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+    margin-left: 60px;
+    position: relative;
+    bottom: 40px;
+}
+
+.show-more button:hover {
+    background: var(--primary-button-hover-color);
+    cursor: pointer;
 }
 
 ::-webkit-scrollbar {

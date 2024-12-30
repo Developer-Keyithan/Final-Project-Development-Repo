@@ -9,7 +9,7 @@ const Cart = ({ data }) => {
                 <img src={data.image} alt={data.name} />
             </div>
             <div className='cart-name'>
-                <h2>{data.name}</h2>
+                <h3>{data.name}</h3>
                 <p>{data.deliveryType}</p>
             </div>
             <p>

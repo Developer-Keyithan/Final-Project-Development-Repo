@@ -1,19 +1,18 @@
 import React from 'react'
-import './Filter.css'
+import './Product.css'
 
-import Cart from '../../Components/Cart/Cart';
+import Cart from '../Cart/Cart';
 
 import sampleData from '../../Data/ProductData'
 
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { LuFilter } from "react-icons/lu";
 import { RxCross2 } from "react-icons/rx";
-import { FaArrowRightLong } from "react-icons/fa6";
 
 const Filter = () => {
   return (
-    <div className='filter-container'>
-      <div className='filter-catogary'>
+    <div className='product-container'>
+      <div className='product-catogary'>
         <div className='search'>
           <label htmlFor="search-bar">Search Your Likes</label>
           <form action="">
@@ -23,7 +22,7 @@ const Filter = () => {
         </div>
         <div className='filters'>
           <label htmlFor="filters">Some Filters For You</label>
-          <div className='filter-btn'>
+          <div className='product-btn'>
             <button type='button'>District <i><RiArrowDropDownLine /></i></button>
             <button type='button'>Vegetables</button>
             <button type='button'>Fruits</button>
@@ -48,7 +47,7 @@ const Filter = () => {
 
       <div className='active-filters'>
         <button className='filter'><LuFilter /> Active Filters <i><RiArrowDropDownLine /></i></button>
-        <div className='active-filter-btn'>
+        <div className='active-product-btn'>
           <button>Jaffna <i><RxCross2/></i></button>
           <button>Spices <i><RxCross2/></i></button>
           <button>Chilli <i><RxCross2/></i></button>
@@ -60,10 +59,6 @@ const Filter = () => {
         {sampleData.map((item, index) => (
           <Cart key={index} data={item} />
         ))}
-      </div>
-
-      <div className="show-more">
-        <button>Show More <FaArrowRightLong/></button>
       </div>
     </div>
   )

@@ -13,7 +13,7 @@
   --secondary-button-color: #FF8000;
   --primary-button-hover-color: #006B12;
   --secondary-vutton-hover-color: #834100;
-  --cart-bg: #d9d9d9;
+  --cart-bg: #EFEFEF;
 }
 
 .hero-container {
@@ -47,11 +47,13 @@
 }
 
 .hero-content {
+  display: flex;
+  flex-direction: column;
   z-index: 3;
   color: white;
   position: relative;
+  top: 20vh;
   margin-left: 10rem;
-  margin-top: 8rem;
 }
 
 .hero-heading {
