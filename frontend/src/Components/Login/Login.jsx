@@ -30,9 +30,9 @@ const Login = () => {
                 </form>
 
                 <div className="api-btn">
-                    <button className='login-api'><h2><FaGoogle />  Login With Google</h2></button>
-                    <button className='login-api'><h2><FaFacebook />  Login With Facebook</h2></button>
-                    <button className='login-api'><h2><FaApple />  Login With Apple</h2></button>
+                    <button className='login-api'><h2><FaGoogle />  Continue With Google</h2></button>
+                    <button className='login-api'><h2><FaFacebook />  Continue With Facebook</h2></button>
+                    <button className='login-api'><h2><FaApple />  Continue With Apple</h2></button>
                 </div>
             </div>
 
