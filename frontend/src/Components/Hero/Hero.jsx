@@ -2,6 +2,8 @@ import React from 'react';
 import HeroImage from '../../Assets/Hero.jpg';
 import './Hero.css';
 
+import { Link } from 'react-router-dom'
+
 const Hero = () => {
   return (
     <div className="hero-container">
@@ -15,8 +17,8 @@ const Hero = () => {
           Welcome to <strong>FarmLink</strong>. We believe in better agriculture for a better future.
         </p>
         <div className="hero-btn">
-          <button className="btn-primary">Sign Up</button>
-          <button className="btn-secondary">Login</button>
+          <Link to="/SignUp"><button className="btn-primary">Sign Up</button></Link>
+          <Link to="/Login" ><button className="btn-secondary">Login</button></Link>
         </div>
       </div>
     </div>

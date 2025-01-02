@@ -10,6 +10,8 @@ import FAQ from '../../Components/FAQ/FAQ';
 
 import { FaArrowRightLong } from "react-icons/fa6";
 
+import { Link } from 'react-router-dom'
+
 const LandingPage = () => {
 
   return (
@@ -19,7 +21,7 @@ const LandingPage = () => {
       <div className='Products-container'>
         <Product />
         <div className="show-more">
-        <button>Show More <FaArrowRightLong/></button>
+        <Link to="/Products"><button>Show More <FaArrowRightLong/></button></Link>
       </div>
       </div>
       <div className="About-container">

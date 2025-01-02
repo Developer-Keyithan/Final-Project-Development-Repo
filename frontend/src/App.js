@@ -1,9 +1,10 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, BrowserRouter, Navigate } from 'react-router-dom';
 
 import LandingPage from './Pages/JSX/LandingPage';
 import ProductPage from './Pages/JSX/ProductPage';
-import LoginSignUpPage from './Pages/JSX/LoginSignUpPage'
+import SignUp from './Components/Sign Up/SignUp';
+import Login from './Components/Login/Login'
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/Products" element={<ProductPage />} />
-        <Route path="/Login" element={<LoginSignUpPage />} />
-        <Route path="/SignUp" element={<LoginSignUpPage />} />
+        <Route path="/SignUp" element={<SignUp />} />
+        <Route path="/Login" element={<Login />} />
       </Routes>
     </BrowserRouter>
   );
