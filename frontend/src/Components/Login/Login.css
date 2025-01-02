@@ -14,21 +14,41 @@
     --primary-button-hover-color: #006B12;
     --secondary-button-hover-color: #834100;
     --cart-bg: #EFEFEF;
+    --gradient: linear-gradient(0deg, #007546, #00D480) ;
 }
 
 .login-container {
-    text-align: center;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
 .login-content {
-    padding: 100px;
+    padding: 75px;
+    box-shadow: 0 0 10px #000;
+    z-index: 100;
+    margin: 75px -75px 75px 0;
+    background: #fff4;
+    border-radius: 10px;
+    backdrop-filter: blur(50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.login-content > h1 {
+    margin-bottom: 50px;
+    font-size: 40px;
 }
 
 .login-form {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .login-form > div {
@@ -38,14 +58,36 @@
     margin-top: 20px;
 }
 
+.name-or-number > input,
+.password > input {
+    height: 40px;
+    padding: 15px;
+    width: 35rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+    margin-top: 5px;
+}
+
+.name-or-number > input:focus,
+.password > input:focus {
+    border: 2px solid var(--primary-botton-color);
+}
+
 .password-options {
     display: flex;
-    justify-content: space-between;
+    gap: 305px;
+    margin-top: 5px;
+}
+
+.show-password {
+    display: flex;
+    gap: 10px;
 }
 
 .login-btn {
     height: 40px;
-    border-radius: 20px;
+    border-radius: 5px;
     padding: 0 40px;
     border: none;
     background: var(--primary-color);
@@ -56,24 +98,42 @@
     align-items: center;
     gap: 10px;
     margin-top: 30px;
+    cursor: pointer;
 }
 
 .api-btn {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 20px;
     margin-top: 30px;
+}
+
+.login-api-btn {
+    display: flex;
+    width: 35rem;
+    justify-content: space-around;
 }
 
 .login-api {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 500px;
-    border-radius: 25px;
+    padding: 10px 50px;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color);
+    outline: none;
+    color: var(--primary-color);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.image-btn {
+    background: url(../../Assets/Login.jpg) no-repeat center / cover;
     border: none;
     outline: none;
-    color: var(--text-color);
-    padding: 10px;
+    padding: 420px 250px;
+    border-radius: 10px;
+    cursor: pointer;
 }
