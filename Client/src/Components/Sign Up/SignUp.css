@@ -3,7 +3,7 @@
     padding: 0;
     scroll-behavior: smooth;
     box-sizing: border-box;
-  
+
     --primary-color: #007546;
     --secondary-color: #00D480;
     --input-label-color: #D9D9D9;
@@ -14,14 +14,14 @@
     --primary-button-hover-color: #006B12;
     --secondary-button-hover-color: #834100;
     --cart-bg: #EFEFEF;
-    --gradient: linear-gradient(0deg, #007546, #00D480) ;
+    --gradient: linear-gradient(0deg, #007546, #00D480);
 }
 
-.login-container {
-    background: url(../../Assets/Login2.jpg) no-repeat center / cover;
+.signup-container {
+    background: url(../../Assets/Login-Background16.jpg) no-repeat center / cover;
 }
 
-.login-content-container {
+.signup-content-container {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -29,7 +29,7 @@
     padding: 20px;
 }
 
-.login-content {
+.signup-content {
     padding: 75px;
     box-shadow: 0 0 10px #000;
     z-index: 100;
@@ -44,26 +44,22 @@
     height: fit-content;
 }
 
-.login-content > h1 {
+.signup-content>h1 {
     margin-bottom: 50px;
     font-size: 40px;
 }
 
-.login-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.login-form > div {
+.signup-form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 20px;
 }
 
-.name-or-number > input,
-.password > input {
+.signup-form label {
+    margin-top: 30px;
+}
+
+.signup-content .text-input {
     height: 40px;
     padding: 15px;
     width: 35rem;
@@ -74,9 +70,19 @@
     background: #fff7;
 }
 
-.name-or-number > input:focus,
-.password > input:focus {
-    border: 2px solid var(--primary-botton-color);
+.name-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.name-container .first-name,
+.name-container .last-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-content .text-input.name {
+    width: 17rem;
 }
 
 .password-options {
@@ -85,12 +91,7 @@
     margin-top: 5px;
 }
 
-.show-password {
-    display: flex;
-    gap: 10px;
-}
-
-.login-btn {
+.signup-btn {
     height: 40px;
     border-radius: 5px;
     padding: 0 40px;
@@ -102,30 +103,23 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-top: 30px;
+    margin-top: 30px !important;
     transition: 0.3s ease-in-out;
+    margin: 0 auto;
 }
 
-.login-btn:hover {
+.signup-btn:hover {
     background: var(--primary-button-hover-color);
     cursor: pointer;
 }
 
-.api-btn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    margin-top: 30px;
-}
-
-.login-api-btn {
+.signup-api-btn {
     display: flex;
     width: 35rem;
     justify-content: space-around;
 }
 
-.login-api {
+.signup-api {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,22 +133,12 @@
     transition: 0.3s ease-in-out;
 }
 
-.login-api:hover {
+.signup-api:hover {
     background: var(--primary-color);
     color: var(--bg-color);
     cursor: pointer;
 }
 
-.signup-btn {
-    background: url(../../Assets/Login1.jpg) no-repeat center / cover;
-    border: none;
-    outline: none;
-    padding: 420px 250px;
-    border-radius: 10px;
-    cursor: pointer;
-    color: var(--text-color);
-}
-
-.signup-btn h1 {
-    font-size: 50px;
+.signup-content>p {
+    margin-top: 30px;
 }

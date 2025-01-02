@@ -9,8 +9,10 @@ import Footer from '../../Components/Footer/Footer';
 import FAQ from '../../Components/FAQ/FAQ';
 
 import { FaArrowRightLong } from "react-icons/fa6";
+import { RiMoonClearFill } from "react-icons/ri";
 
 import { Link } from 'react-router-dom'
+import Toggle from '../../Components/Toggle/Toggle';
 
 const LandingPage = () => {
 
@@ -30,6 +32,7 @@ const LandingPage = () => {
       <FAQ />
       <Contact />
       <Footer />
+      <Toggle position={{ right: '10px'}} icon={<RiMoonClearFill />} />
     </div>
   );
 };
