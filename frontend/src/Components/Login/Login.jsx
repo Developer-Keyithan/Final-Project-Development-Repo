@@ -11,6 +11,7 @@ import { FaTiktok } from "react-icons/fa";
 const Login = () => {
     return (
         <div className='login-container'>
+            <div className="login-content-container">
             <div className="login-content">
                 <h1>Login</h1>
                 <form method='POST' className="login-form">
@@ -43,11 +44,12 @@ const Login = () => {
             </div>
 
             <Link to="/signup">
-                <button className="image-btn">
+                <button className="signup-btn">
                     <h1>Sign Up</h1>
                     <p>Don't have an account?</p>
                 </button>
             </Link>
+            </div>
 
         </div>
     )
