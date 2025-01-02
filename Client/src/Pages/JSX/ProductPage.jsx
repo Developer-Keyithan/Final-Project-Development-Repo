@@ -6,6 +6,10 @@ import Sidebar from '../../Components/Sidebar/Sidebar'
 import Footer from '../../Components/Footer/Footer'
 import PageNumber from '../../Components/Page Number/PageNumber'
 
+import { RiMoonClearFill } from "react-icons/ri";
+import Toggle from '../../Components/Toggle/Toggle'
+import { TiHome } from 'react-icons/ti'
+
 const ProductPage = () => {
     return (
         <div>
@@ -14,6 +18,8 @@ const ProductPage = () => {
             <Product />
             <PageNumber />
             <Footer />
+            <Toggle link='/' position={{right: '55px'}} icon={<TiHome />} />
+            <Toggle position={{right: '10px'}} icon={<RiMoonClearFill />} />
         </div>
     )
 }
