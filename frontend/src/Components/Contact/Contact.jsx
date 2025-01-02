@@ -19,7 +19,7 @@ const Contact = () => {
                         <div className="reach-us">
                             <h3>Reach Us</h3>
                             <div>
-                                <p><MdOutlineMailOutline /> farmlink.org@gmail.com</p>
+                                <p><MdOutlineMailOutline /> fshop.org@gmail.com</p>
                                 <p><LuPhoneCall /> +94 241 234 567, +94 123 456 789</p>
                                 <p><FaWhatsapp /> +94 123 456 789</p>
                             </div>

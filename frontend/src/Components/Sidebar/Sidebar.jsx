@@ -7,7 +7,7 @@ const Sidebar = () => {
     <div className='sidebar-container'>
         <div className="logo">
             {/* <img src="" alt="" /> */}
-            <h1>Farm<span>Link</span></h1>
+            <h1>F<span>shop</span></h1>
         </div>
         <div className="navlinks">
             <ul>
