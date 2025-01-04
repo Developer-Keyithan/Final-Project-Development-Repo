@@ -9,8 +9,8 @@ import { FaRegHeart } from "react-icons/fa";
 const Cart = ({ data }) => {
     const navigate = useNavigate();
 
-    const handleNavigate = () => {
-        navigate('/Overview');
+    const handleNavigate = (id) => {
+        navigate(`/Overview/${data.id}`);
     };
 
     return (

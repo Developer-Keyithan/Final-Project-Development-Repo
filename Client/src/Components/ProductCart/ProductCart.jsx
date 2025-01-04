@@ -6,6 +6,7 @@ import Button from '../Button/Button';
 import { IoIosArrowBack, IoIosArrowForward, IoIosRemove, IoIosAdd } from "react-icons/io";
 import { IoShareSocialSharp } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
+import { useParams } from 'react-router-dom';
 
 function ProductCart({ image, relatedImage1, relatedImage2, relatedImage3, relatedImage4, relatedImage5, name, description, rating, district, freshness, AgricationMethod, newPrice, oldPrice }) {
 
