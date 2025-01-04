@@ -1,12 +1,12 @@
-import './ProductCart.css';
+import './ProductCard.css';
 import { useState } from 'react';
-import RatingCart from '../Rating Cart/RatingCart';
+import RatingCart from '../Rating Card/RatingCard';
 import Button from '../Button/Button';
 
 import { IoIosArrowBack, IoIosArrowForward, IoIosRemove, IoIosAdd } from "react-icons/io";
 import { IoShareSocialSharp } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 function ProductCart({ image, relatedImage1, relatedImage2, relatedImage3, relatedImage4, relatedImage5, name, description, rating, district, freshness, AgricationMethod, newPrice, oldPrice }) {
 
@@ -117,7 +117,7 @@ function ProductCart({ image, relatedImage1, relatedImage2, relatedImage3, relat
                 <div className="product-buying-options">
                     <h2>Total Price: Rs. {totalPrice.toFixed(2)}</h2>
                     <div className="buy-btns">
-                        <Button textContent="Buy Now" style={{ background: '#007546' }} />
+                        <Link to="/Order"><Button textContent="Buy Now" style={{ background: '#007546' }} /></Link>
                         <Button textContent="Add to Cart" style={{ background: '#FF8000' }} />
                     </div>
                 </div>

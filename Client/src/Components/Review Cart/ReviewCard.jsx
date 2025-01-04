@@ -1,8 +1,8 @@
-import './ReviewCart.css';
+import './ReviewCard.css';
 import { BiLike, BiDislike, BiDotsVerticalRounded } from "react-icons/bi";
 import { FaRegCircleUser } from "react-icons/fa6";
 
-import RatingCart from '../Rating Cart/RatingCart';
+import RatingCart from '../Rating Card/RatingCard';
 
 function ReviewCart({ name, time, review, image }) {
     return (
@@ -21,7 +21,7 @@ function ReviewCart({ name, time, review, image }) {
                 </div>
 
                 <div className="middle-line"></div>
-                
+
                 <div className="review">
                     <p>{review}</p>
                     <div className="symbols">
