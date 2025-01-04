@@ -2,13 +2,10 @@ import './ProductCart.css';
 import { useState } from 'react';
 import RatingCart from '../Rating Cart/RatingCart';
 import Button from '../Button/Button';
-import Toggle from '../Toggle/Toggle';
 
 import { IoIosArrowBack, IoIosArrowForward, IoIosRemove, IoIosAdd } from "react-icons/io";
 import { IoShareSocialSharp } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
-import { RiMoonClearFill } from "react-icons/ri";
-import { IoCartOutline } from "react-icons/io5";
 
 function ProductCart({ image, relatedImage1, relatedImage2, relatedImage3, relatedImage4, relatedImage5, name, description, rating, district, freshness, AgricationMethod, newPrice, oldPrice }) {
 
@@ -124,8 +121,6 @@ function ProductCart({ image, relatedImage1, relatedImage2, relatedImage3, relat
                     </div>
                 </div>
             </div>
-            <Toggle position={{right: '10px'}} icon={<RiMoonClearFill />} />
-            <Toggle link='/Cart' position={{right: '60px'}} icon={<IoCartOutline />} />
         </div>
     );
 }

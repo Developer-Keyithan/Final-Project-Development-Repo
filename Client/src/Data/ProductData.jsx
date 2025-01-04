@@ -450,24 +450,6 @@ const ProductData = [
       newPrice: "188",
       oldPrice: "213",
       discount: 12,
-    },{
-      id: "PR00025",
-      image: CartImage,
-      relatedImage1: CartImage,
-      relatedImage2: CartImage,
-      relatedImage3: CartImage,
-      relatedImage4: CartImage,
-      relatedImage5: CartImage,
-      name: "Potato",
-      description: "Pure Jaffna Tomato",
-      rating: "100+",
-      district: "Jaffna",
-      freshness: "Harvested Today",
-      AgricationMethod: "Organic",
-      deliveryType: "Free Delivery",
-      newPrice: "188",
-      oldPrice: "213",
-      discount: 12,
     }
   ];
 
