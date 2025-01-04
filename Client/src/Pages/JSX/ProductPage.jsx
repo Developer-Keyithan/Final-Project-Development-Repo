@@ -16,10 +16,12 @@ const ProductPage = () => {
             <Sidebar />
             <div className='bg'></div>
             <Product />
-            <PageNumber />
+            <div className="pageNumber">
+                <PageNumber />
+            </div>
             <Footer />
-            <Toggle link='/' position={{right: '55px'}} icon={<TiHome />} />
-            <Toggle position={{right: '10px'}} icon={<RiMoonClearFill />} />
+            <Toggle link='/' position={{ right: '55px' }} icon={<TiHome />} />
+            <Toggle position={{ right: '10px' }} icon={<RiMoonClearFill />} />
         </div>
     )
 }

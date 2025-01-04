@@ -24,6 +24,7 @@
     box-shadow: 0 0 5px #0005;
     border-radius: 10px;
     transition: 0.3s ease-in-out;
+    color: var(--text-color);
 }
 
 .cart:hover {
@@ -47,6 +48,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    text-decoration: none;
 }
 
 .cart p {
@@ -54,6 +56,7 @@
     align-items: center;
     gap: 10px;
     font-size: 12px;
+    text-decoration: none;
 }
 
 .cart p span {
