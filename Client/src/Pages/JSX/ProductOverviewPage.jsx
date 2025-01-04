@@ -1,10 +1,10 @@
 import '../CSS/ProductOverviewPage.css'
 import Review from '../../Components/Reviews/Review'
-import ProductCart from '../../Components/ProductCart/ProductCart'
+import ProductCart from '../../Components/ProductCard/ProductCard'
 import Sidebar from '../../Components/Sidebar/Sidebar'
 import Footer from '../../Components/Footer/Footer'
 import sampleData from '../../Data/ProductData'
-import Cart from '../../Components/Cart/Cart'
+import Cart from '../../Components/Card/Card'
 import Toggle from '../../Components/Toggle/Toggle';
 import { useParams } from 'react-router-dom';
 

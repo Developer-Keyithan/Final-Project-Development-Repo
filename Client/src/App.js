@@ -5,7 +5,6 @@ import LandingPage from './Pages/JSX/LandingPage';
 import ProductPage from './Pages/JSX/ProductPage';
 import SignUp from './Components/Sign Up/SignUp';
 import Login from './Components/Login/Login';
-import Review from './Components/Reviews/Review';
 import ProductOverviewPage from './Pages/JSX/ProductOverviewPage';
 
 function App() {

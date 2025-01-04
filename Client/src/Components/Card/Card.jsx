@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Cart.css';
-import RatingCart from '../Rating Cart/RatingCart';
+import './Card.css';
+import RatingCart from '../Rating Card/RatingCard';
 import Toggle from '../Toggle/Toggle';
 
 import { FaRegHeart } from "react-icons/fa";

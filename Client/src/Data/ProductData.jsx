@@ -18,7 +18,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     },
     {
       id: "PR0002",
@@ -37,7 +36,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     },
     {
       id: "PR0003",
@@ -56,7 +54,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     },
     {
       id: "PR0004",
@@ -75,7 +72,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     },
     {
       id: "PR0005",
@@ -94,7 +90,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     },
     {
       id: "PR0006",
@@ -113,7 +108,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     },{
       id: "PR0007",
       image: CartImage,
@@ -131,7 +125,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     },
     {
       id: "PR0008",
@@ -150,7 +143,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     },
     {
       id: "PR0009",
@@ -169,7 +161,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     },{
       id: "PR00010",
       image: CartImage,
@@ -187,7 +178,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     },
     {
       id: "PR00011",
@@ -206,7 +196,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     },
     {
       id: "PR00012",
@@ -225,7 +214,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     },{
       id: "PR00013",
       image: CartImage,
@@ -243,7 +231,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     },
     {
       id: "PR00014",
@@ -262,7 +249,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     },
     {
       id: "PR00015",
@@ -281,7 +267,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     },{
       id: "PR00016",
       image: CartImage,
@@ -299,7 +284,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     },
     {
       id: "PR00017",
@@ -318,7 +302,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     },
     {
       id: "PR00018",
@@ -337,7 +320,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     },{
       id: "PR00019",
       image: CartImage,
@@ -355,7 +337,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     },
     {
       id: "PR00020",
@@ -374,7 +355,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     },
     {
       id: "PR00021",
@@ -393,7 +373,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     },{
       id: "PR00022",
       image: CartImage,
@@ -411,7 +390,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     },
     {
       id: "PR00023",
@@ -430,7 +408,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     },
     {
       id: "PR00024",
@@ -449,7 +426,6 @@ const ProductData = [
       deliveryType: "Free Delivery",
       newPrice: "188",
       oldPrice: "213",
-      discount: 12,
     }
   ];
 
