@@ -4,7 +4,7 @@ import '../CSS/ProductPage.css'
 import Product from '../../Components/Product/Product'
 import Sidebar from '../../Components/Sidebar/Sidebar'
 import Footer from '../../Components/Footer/Footer'
-import PageNumber from '../../Components/Page Number/PageNumber'
+import Pagination from '../../Components/Pagination/Pagination'
 
 import { RiMoonClearFill } from "react-icons/ri";
 import Toggle from '../../Components/Toggle/Toggle'
@@ -17,7 +17,7 @@ const ProductPage = () => {
             <div className='bg'></div>
             <Product />
             <div className="pageNumber">
-                <PageNumber />
+                <Pagination />
             </div>
             <Footer />
             <Toggle link='/' position={{ right: '55px' }} icon={<TiHome />} />

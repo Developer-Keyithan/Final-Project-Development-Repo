@@ -1,10 +1,10 @@
 import React from 'react'
-import './PageNumber.css'
+import './Pagination.css'
 
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
 
-const PageNumber = () => {
+const  Pagination = () => {
     return (
         <div className='page-number-container'>
             <button><FaArrowLeftLong /> Previous</button>
@@ -22,4 +22,4 @@ const PageNumber = () => {
     )
 }
 
-export default PageNumber
+export default  Pagination

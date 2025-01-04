@@ -2,7 +2,7 @@ import './Review.css'
 
 import sampleData from '../../Data/ReviewData';
 import ReviewCart from '../Review Cart/ReviewCart';
-import PageNumber from '../Page Number/PageNumber';
+import Pagination from '../Pagination/Pagination';
 
 function Review() {
     return (
@@ -13,7 +13,7 @@ function Review() {
                     <ReviewCart key={item.id} {...item} />
                 ))}
             </div>
-            <PageNumber />
+            < Pagination />
         </div>
     );
 }
