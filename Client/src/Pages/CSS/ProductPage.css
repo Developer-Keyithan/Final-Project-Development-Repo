@@ -24,3 +24,7 @@
     position: absolute;
     z-index: -1;
 }
+
+.pageNumber {
+    margin-left: 12vw;
+}
