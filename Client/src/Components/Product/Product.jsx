@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './Product.css'
 
-import Cart from '../Card/Card';
+import Cart from '../Cart/Cart';
 
 import sampleData from '../../Data/ProductData'
 
