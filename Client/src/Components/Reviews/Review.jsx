@@ -1,7 +1,7 @@
 import './Review.css'
 
 import sampleData from '../../Data/ReviewData';
-import ReviewCart from '../Review Cart/ReviewCard';
+import ReviewCart from '../Review Cart/ReviewCart';
 import Pagination from '../Pagination/Pagination';
 
 function Review() {
